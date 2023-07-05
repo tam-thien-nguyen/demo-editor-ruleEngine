@@ -1,6 +1,6 @@
 {
-    "string": ["equal", "notEqual"],
-    "number": ["equal", "lessThan", "lessThanInclusive", "greaterThan", "greaterThanInclusive", "notEqual"],
+    "string": ["equal", "notEqual", "olderThan"],
+    "number": ["equal", "lessThan", "lessThanInclusive", "greaterThan", "greaterThanInclusive", "notEqual", "olderThan"],
     "array": ["contains", "doesNotContain", "in", "notIn"],
     "object": ["equal", "notEqual", "lessThan", "lessThanInclusive", "greaterThan", "greaterThanInclusive", "contains", "doesNotContain", "in", "notIn"]
 }
